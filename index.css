@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image:linear-gradient(rgb(199, 59, 59),rgb(41, 37, 37)) ;
+}
+body{
+    height: 98vh;
+    background-image:linear-gradient(rgb(199, 59, 59),rgb(41, 37, 37)) ;
+    color: white;
+    font-family: sans-serif;
+}
+div{
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+#imagem{
+    width: 350px;
+    margin: auto;
+}
+img{
+    width: inherit;
+    border: solid 5px;
+    border-radius: 3px;
+}
+#sct1{
+    margin:0;
+    flex-direction: column;
+    align-items: start;
+}
+
+.fa-heart{
+    font-size: 1.5em;
+    color: #88999c;
+}
+.btn{
+    font-size: 2em;
+}
+.fa-circle-play{
+    font-size: 1.7em;
+}
+.container{
+    margin: auto;
+    width: 60%;
+}
+h1{
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+#opcao{
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+#ct1{
+    margin-top: 30px;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#mcke{
+    color: #88999c;
+    font-size: 0.9em;
+    padding-top: 4px;
+}
+#progre{
+    background-color: #88999c;
+    height: 3px;
+    width: 100%;
+    border-radius: 5px;
+    justify-content: flex-start;
+    margin: 0;
+    
+}
+#corrent{
+    --progre: 0%;
+    height: inherit;
+    background-color:white;
+    width: var(--progre);
+    border-radius: inherit;
+    margin: 0;
+}
+button{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+.fa-circle-pause{
+    font-size: 1.7em;
+}
+button{
+    margin-bottom: 0;
+    cursor: pointer;
+}
+#progrect{
+    cursor:pointer;
+    flex-direction: column;
+}
+#song-time{
+    margin: 0;
+    padding: 0;
+}
+
+#total-time{
+    margin: 0;
+    padding: 0;
+}
+
+#time-box{
+    margin: 0;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: inherit;
+    font-size:smaller;
+}
+.button-act{
+    color: rgb(51, 2, 2);
+}
+
+
+@media screen and (max-width:780px){
+    body{
+        height: 96vh;
+    }
+    #imagem{
+        margin-top: 25px;
+        width: inherit;
+       
+    }
+    .fa-heart{
+        margin-bottom: 20px;
+    }
+    .container{
+        width: 90%;
+    }
+    #ct1{
+        margin-top: 30px;
+        justify-content: space-between;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #mcke{
+       margin-bottom: 20px;
+    }
+
+    button{
+        background-color: inherit;
+        color: inherit;
+        border: none;
+        margin-top: 25px;
+    }
+    #album{
+        margin-top: 25px;
+    }
+}
